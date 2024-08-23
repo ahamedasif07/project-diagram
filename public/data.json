@@ -1,0 +1,403 @@
+[
+  {
+    "code_name": "pl-44",
+    "id": 1,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1200,
+    "image1": "https://i.ibb.co/QbTQmLX/2.png",
+    "image2": "https://i.ibb.co/4Rr4H7Y/Artboard5-1bdaed7e-8a2c-4a8f-96dc-38c664057dd1.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "ts-11",
+    "id": 2,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 950,
+    "image1": "https://i.ibb.co/WBWJyyh/6-cf47f9db-f24e-4ff4-ba4a-52adb83b2197.png",
+    "image2": "https://i.ibb.co/nQm1BQM/Artboard2-06492587-d25a-421f-8e94-9712c790614d.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "jg-32",
+    "id": 3,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1400,
+    "image1": "https://i.ibb.co/zG7712h/10.png",
+    "image2": "https://i.ibb.co/DGLkKYw/salmancover03.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "sh-21",
+    "id": 4,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1600,
+    "image1": "https://i.ibb.co/GJ1T3rw/7.png",
+    "image2": "https://i.ibb.co/12pHCFX/Artboard2-5c5607a9-ba80-4fc9-abd7-7132811a9488.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "pn-55",
+    "id": 5,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1800,
+    "image1": "https://i.ibb.co/SQRTNFC/12-007c3184-7fd2-4856-a2d9-f5675a00c3d9.png",
+    "image2": "https://i.ibb.co/g3jQM8G/Artboard3-f29a8d68-2599-473f-826f-47f93b799d83.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "pl-89",
+    "id": 7,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1250,
+    "image1": "https://i.ibb.co/Xy28fWH/6-cf47f9db-f24e-4ff4-ba4a-52adb83b2197-2.png",
+    "image2": "https://i.ibb.co/M8k9JQN/Artboard3-9b334fb6-1da3-419a-9fe4-bdc389ce73e4.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "ts-22",
+    "id": 8,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 850,
+    "image1": "https://i.ibb.co/8gG2Jk4/PD-34.png",
+    "image2": "https://i.ibb.co/4jW31df/Artboard1-4a8f1a55-39df-4879-ab8e-4a3506851068.jpg",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "jg-41",
+    "id": 9,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1450,
+    "image2": "https://i.ibb.co/v3y06Gq/Artboard6.jpg",
+    "image1": "https://i.ibb.co/q1JSdGG/3.png",
+    "category": "new-arrival",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "sh-67",
+    "id": 10,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1550,
+    "image1": "image10a.jpg",
+    "image2": "image10b.jpg",
+    "category": "Shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-23",
+    "id": 11,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1300,
+    "image1": "image11a.jpg",
+    "image2": "image11b.jpg",
+    "category": "Panjabi",
+    "name": "Panjabi"
+  },
+  {
+    "code_name": "pl-55",
+    "id": 13,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1100,
+    "image1": "image13a.jpg",
+    "image2": "image13b.jpg",
+    "category": "polo-shirt",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "ts-19",
+    "id": 14,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 900,
+    "image1": "image14a.jpg",
+    "image2": "image14b.jpg",
+    "category": "t-shirt",
+    "name": "T-Shirt"
+  },
+  {
+    "code_name": "jg-29",
+    "id": 15,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1500,
+    "image1": "image15a.jpg",
+    "image2": "image15b.jpg",
+    "category": "joggers",
+    "name": "Joggers"
+  },
+  {
+    "code_name": "sh-11",
+    "id": 16,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1600,
+    "image1": "image16a.jpg",
+    "image2": "image16b.jpg",
+    "category": "shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-12",
+    "id": 17,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1700,
+    "image1": "image17a.jpg",
+    "image2": "image17b.jpg",
+    "category": "panjabi",
+    "name": "Panjabi"
+  },
+  {
+    "code_name": "pl-66",
+    "id": 19,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1300,
+    "image1": "image19a.jpg",
+    "image2": "image19b.jpg",
+    "category": "polo-shirt",
+    "name": "Polo Shirt"
+  },
+  {
+    "code_name": "ts-33",
+    "id": 20,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1000,
+    "image1": "image20a.jpg",
+    "image2": "image20b.jpg",
+    "category": "t-shirt",
+    "name": "T-Shirt"
+  },
+  {
+    "code_name": "jg-47",
+    "id": 21,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1400,
+    "image1": "image21a.jpg",
+    "image2": "image21b.jpg",
+    "category": "joggers",
+    "name": "Joggers"
+  },
+  {
+    "code_name": "sh-13",
+    "id": 22,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1500,
+    "image1": "image22a.jpg",
+    "image2": "image22b.jpg",
+    "category": "shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-45",
+    "id": 23,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1600,
+    "image1": "image23a.jpg",
+    "image2": "image23b.jpg",
+    "category": "panjabi",
+    "name": "Panjabi"
+  },
+
+  {
+    "code_name": "pl-90",
+    "id": 24,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1350,
+    "image1": "image24a.jpg",
+    "image2": "image24b.jpg",
+    "category": "polo-shirt",
+    "name": "Polo-Shirt"
+  },
+  {
+    "code_name": "ts-30",
+    "id": 25,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 920,
+    "image1": "image25a.jpg",
+    "image2": "image25b.jpg",
+    "category": "t-shirt",
+    "name": "T-Shirt"
+  },
+  {
+    "code_name": "jg-55",
+    "id": 26,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1550,
+    "image1": "image26a.jpg",
+    "image2": "image26b.jpg",
+    "category": "joggers",
+    "name": "Joggers"
+  },
+  {
+    "code_name": "sh-15",
+    "id": 27,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1650,
+    "image1": "image27a.jpg",
+    "image2": "image27b.jpg",
+    "category": "shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-99",
+    "id": 28,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1750,
+    "image1": "image28a.jpg",
+    "image2": "image28b.jpg",
+    "category": "panjabi",
+    "name": "Panjabi"
+  },
+  {
+    "code_name": "pl-100",
+    "id": 29,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1400,
+    "image1": "image29a.jpg",
+    "image2": "image29b.jpg",
+    "category": "polo-shirt",
+    "name": "Polo Shirt"
+  },
+  {
+    "code_name": "ts-50",
+    "id": 30,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 800,
+    "image1": "image30a.jpg",
+    "image2": "image30b.jpg",
+    "category": "t-shirt",
+    "name": "T-Shirt"
+  },
+  {
+    "code_name": "jg-60",
+    "id": 31,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1450,
+    "image1": "image31a.jpg",
+    "image2": "image31b.jpg",
+    "category": "joggers",
+    "name": "Joggers"
+  },
+  {
+    "code_name": "sh-20",
+    "id": 32,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1600,
+    "image1": "image32a.jpg",
+    "image2": "image32b.jpg",
+    "category": "shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-110",
+    "id": 33,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1700,
+    "image1": "image33a.jpg",
+    "image2": "image33b.jpg",
+    "category": "panjabi",
+    "name": "Panjabi"
+  },
+  {
+    "code_name": "pl-101",
+    "id": 34,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1300,
+    "image1": "image34a.jpg",
+    "image2": "image34b.jpg",
+    "category": "polo-shirt",
+    "name": "Polo Shirt"
+  },
+  {
+    "code_name": "ts-35",
+    "id": 35,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 950,
+    "image1": "image35a.jpg",
+    "image2": "image35b.jpg",
+    "category": "t-shirt",
+    "name": "T-Shirt"
+  },
+  {
+    "code_name": "jg-65",
+    "id": 36,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1500,
+    "image1": "image36a.jpg",
+    "image2": "image36b.jpg",
+    "category": "joggers",
+    "name": "Joggers"
+  },
+  {
+    "code_name": "sh-25",
+    "id": 37,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1550,
+    "image1": "image37a.jpg",
+    "image2": "image37b.jpg",
+    "category": "shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-120",
+    "id": 38,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1650,
+    "image1": "image38a.jpg",
+    "image2": "image38b.jpg",
+    "category": "panjabi",
+    "name": "Panjabi"
+  },
+  {
+    "code_name": "pl-102",
+    "id": 39,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1350,
+    "image1": "image39a.jpg",
+    "image2": "image39b.jpg",
+    "category": "polo-shirt",
+    "name": "Polo Shirt"
+  },
+  {
+    "code_name": "ts-40",
+    "id": 40,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 980,
+    "image1": "image40a.jpg",
+    "image2": "image40b.jpg",
+    "category": "t-shirt",
+    "name": "T-Shirt"
+  },
+  {
+    "code_name": "jg-70",
+    "id": 41,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1480,
+    "image1": "image41a.jpg",
+    "image2": "image41b.jpg",
+    "category": "joggers",
+    "name": "Joggers"
+  },
+  {
+    "code_name": "sh-30",
+    "id": 42,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1620,
+    "image1": "image42a.jpg",
+    "image2": "image42b.jpg",
+    "category": "shirt",
+    "name": "Shirt"
+  },
+  {
+    "code_name": "pn-130",
+    "id": 43,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1730,
+    "image1": "image43a.jpg",
+    "image2": "image43b.jpg",
+    "category": "panjabi",
+    "name": "Panjabi"
+  }
+]
