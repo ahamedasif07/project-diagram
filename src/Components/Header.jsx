@@ -5,7 +5,7 @@ import sliderTheree from "../../public/images/diagram-home-page/slider4.png";
 import sliderFour from "../../public/images/diagram-home-page/slider3.jpg";
 const Header = () => {
   return (
-    <div className="md:h-[800px]  pb-8 pt-14">
+    <div className="max-h-full pb-8 pt-14">
       <Carousel className="rounded-xl">
         <img
           src={sliderOne}
