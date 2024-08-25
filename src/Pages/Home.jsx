@@ -4,6 +4,7 @@ import Header from "../Components/Home-Components/Header";
 import Product from "../Components/Home-Components/Product";
 import Video from "../Components/Home-Components/Video";
 import Details from "../Components/Home-Components/Details";
+import HomeFotter from "../Components/Home-Components/HomeFotter";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -85,6 +86,7 @@ const Home = () => {
       {/* video components */}
       <Video></Video>
       <Details></Details>
+      <HomeFotter></HomeFotter>
     </div>
   );
 };
