@@ -1,8 +1,8 @@
 import { Carousel } from "@material-tailwind/react";
-import sliderOne from "../../public/images/diagram-home-page/slider1.jpg";
-import sliderTow from "../../public/images/diagram-home-page/slider2.jpg";
-import sliderTheree from "../../public/images/diagram-home-page/slider4.png";
-import sliderFour from "../../public/images/diagram-home-page/slider3.jpg";
+import sliderOne from "../../../public/images/diagram-home-page/slider1.jpg";
+import sliderTow from "../../../public/images/diagram-home-page/slider2.jpg";
+import sliderTheree from "../../../public/images/diagram-home-page/slider4.png";
+import sliderFour from "../../../public/images/diagram-home-page/slider3.jpg";
 const Header = () => {
   return (
     <div className="max-h-full pb-8 pt-14">

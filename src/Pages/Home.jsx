@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import Header from "../Components/Header";
-import Product from "../Components/Product";
+
+import Header from "../Components/Home-Components/Header";
+import Product from "../Components/Home-Components/Product";
+import Video from "../Components/Home-Components/Video";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -79,6 +81,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* video components */}
+      <Video></Video>
     </div>
   );
 };
