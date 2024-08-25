@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Header from "../Components/Home-Components/Header";
 import Product from "../Components/Home-Components/Product";
 import Video from "../Components/Home-Components/Video";
+import Details from "../Components/Home-Components/Details";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -83,6 +84,7 @@ const Home = () => {
       </div>
       {/* video components */}
       <Video></Video>
+      <Details></Details>
     </div>
   );
 };
