@@ -5,10 +5,14 @@ import { BsHandbag } from "react-icons/bs";
 import { RiMenu2Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { FaRegUser } from "react-icons/fa6";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
+
 const NavBar = () => {
   const [isFixed, setIsFixed] = useState(false);
   const [isScarch, setIsScarch] = useState(false);
   const [isMenu, setIsMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -83,13 +87,47 @@ const NavBar = () => {
           {/* -----------md : middel nav------- */}
 
           <div className={`md:block ${isMenu ? "sm:block" : "hidden "}`}>
-            <ul className="md:flex gap-4 sm:pl-[45px] pl-[10px] md:pl-0 justify-center pb-3">
-              <li className="text-white">Home</li>
-              <li className="text-white">About</li>
-              <li className="text-white">Services</li>
-              <li className="text-white">Contact</li>
-              <li className="text-white">Blog</li>
-              <li className="text-white">Shop</li>
+            <ul className="md:flex gap-4 gap-y-2 sm:pl-[45px] pl-[10px] md:pl-0 justify-center pb-3">
+              <li className="  py-2 text-[14px] text-gray-200  cursor-pointer">
+                HOME
+              </li>
+              {/* ------drop doern -----*/}
+              <div className="relative">
+                {/* Main Clothing Menu */}
+                <button
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="  py-2 text-[14px] text-gray-200    rounded-md"
+                >
+                  <h2 className="flex items-center">
+                    CLOTHING
+                    <span className="ml-2">
+                      {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                    </span>
+                  </h2>
+                </button>
+
+                {/* Dropdown Menu */}
+                {isOpen && (
+                  <div className="absolute left-0 mt-1 w-48 bg-[#242833]  shadow-lg rounded-md z-50">
+                    <ul className=" py-2 text-[14px] text-gray-200">
+                      <li className="px-4    py-2 text-[14px] text-gray-200 cursor-pointer">
+                        Shirt
+                      </li>
+                      <li className="px-4    py-2 text-[14px] text-gray-200 cursor-pointer">
+                        T-Shirt
+                      </li>
+                      {/* Add more items as needed */}
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              <li className="  py-2 text-[14px] text-gray-200 cursor-pointer">
+                ACCESSORIES
+              </li>
+              <li className="  py-2 text-[14px] text-gray-200 cursor-pointer">
+                SHOES
+              </li>
             </ul>
           </div>
         </div>
