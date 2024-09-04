@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import navLogo from "../public/images/diagram-home-page/NEW_LOGO.png";
-import { ImSearch } from "react-icons/im";
+import { CiSearch } from "react-icons/ci";
 import { BsHandbag } from "react-icons/bs";
 import { RiMenu2Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
-
+import { FaRegUser } from "react-icons/fa6";
 const NavBar = () => {
   const [isFixed, setIsFixed] = useState(false);
   const [isScarch, setIsScarch] = useState(false);
+  const [isMenu, setIsMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,23 +34,41 @@ const NavBar = () => {
       </div>
 
       {/* Navbar */}
-      <div className="relative">
-        <div className={isFixed ? "fixed top-0 w-full z-50" : ""}>
+      <div className="relative bg-[#242833]">
+        <div className={isFixed ? "fixed top-0 w-full z-50 bg-[#242833]" : ""}>
           <div className="">
             <div className="middel-nav">
-              <div className="bg-[#242833] flex justify-around items-center py-4">
+              <div className=" flex justify-around items-center py-4">
                 {!isScarch && (
                   <>
-                    <h2 className="text-white text-xl">
-                      <RiMenu2Fill />
-                    </h2>
-                    <img src={navLogo} alt="Logo" />
+                    <div className="flex gap-2 items-center">
+                      <h2
+                        onClick={() => setIsMenu(!isMenu)}
+                        className="text-white md:hidden block text-xl"
+                      >
+                        <RiMenu2Fill />
+                      </h2>
+                      <h2
+                        onClick={() => setIsScarch(true)}
+                        className="text-white text-xl md:opacity-100 opacity-0 "
+                      >
+                        <CiSearch />
+                      </h2>
+                    </div>
+                    <img
+                      className="w-[170px] md:w-[250px]"
+                      src={navLogo}
+                      alt="Logo"
+                    />
                     <div className="flex items-center gap-3">
                       <h2
                         onClick={() => setIsScarch(true)}
-                        className="text-white text-xl"
+                        className="text-white opacity-100 md:opacity-0 text-xl"
                       >
-                        <ImSearch />
+                        <CiSearch />
+                      </h2>
+                      <h2 className="text-white hidden md:block text-xl">
+                        <FaRegUser />
                       </h2>
                       <h2 className="text-white text-xl">
                         <BsHandbag />
@@ -60,7 +79,29 @@ const NavBar = () => {
               </div>
             </div>
           </div>
+
+          {/* -----------md : middel nav------- */}
+
+          <div className={`md:block ${isMenu ? "sm:block" : "hidden "}`}>
+            <ul className="md:flex gap-4 sm:pl-[45px] pl-[10px] md:pl-0 justify-center pb-3">
+              <li className="text-white">Home</li>
+              <li className="text-white">About</li>
+              <li className="text-white">Services</li>
+              <li className="text-white">Contact</li>
+              <li className="text-white">Blog</li>
+              <li className="text-white">Shop</li>
+            </ul>
+          </div>
         </div>
+
+        {/* <ul className="md:flex gap-4   justify-center pb-3">
+          <li className="text-white">Home</li>
+          <li className="text-white">About</li>
+          <li className="text-white">Services</li>
+          <li className="text-white">Contact</li>
+          <li className="text-white">Blog</li>
+          <li className="text-white">Shop</li>
+        </ul> */}
 
         {/* Search Bar */}
         <div
@@ -85,6 +126,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+      {/* Closing div */}
     </div>
   );
 };
