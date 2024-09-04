@@ -105,13 +105,13 @@ const NavBar = () => {
 
         {/* Search Bar */}
         <div
-          className={`${
+          className={`transition-all duration-500 ease-in-out${
             isScarch
-              ? " fixed transition-all duration-500 ease-in-out top-0 left-0 right-0 w-full z-50 bg-[#242833] py-2 "
+              ? " fixed  top-0 left-0 right-0 w-full z-50 bg-[#242833] py-2 "
               : "hidden"
           }`}
         >
-          <div className="max-w-[600px] mx-auto py-4 px-2 flex items-center gap-4">
+          <div className="max-w-[600px]  mx-auto py-4 px-2 flex items-center gap-4">
             <input
               className="py-2 px-4 w-full md:w-[600px] border-b-2 border-transparent focus:border-b-2 focus:border-black outline-none"
               type="search"
