@@ -5,6 +5,7 @@ import Product from "../Components/Home-Components/Product";
 import Video from "../Components/Home-Components/Video";
 import Details from "../Components/Home-Components/Details";
 import HomeFotter from "../Components/Home-Components/HomeFotter";
+import ProductInfo from "../Components/ProductInfo";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -43,13 +44,13 @@ const Home = () => {
       <Header></Header>
       <div>
         <div className="px-4 max-w-[1100px] mx-auto pt-16 pb-3">
-          <h2 className="text-2xl px-4 md:px-0 pb-2 text-gray-700">
-            Summer Arrivals
-          </h2>
-          <p className="text-[14px]  pb-2 text-gray-700 px-4 md:px-0">
-            Embrace the season with our latest collection and make this summer
-            your most stylish one yet!
-          </p>
+          <ProductInfo
+            color={`text-gray-700`}
+            title={"Summer Arrivals"}
+            paragraph={
+              "Embrace the season with our latest collection and make this summer your most stylish one yet!"
+            }
+          ></ProductInfo>
         </div>
         <div className="grid px-4 max-w-[1100px]  justify-center pt-3 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mx-auto md:gap-5">
           {newAraivles?.slice(0, showAll).map((product, idx) => (

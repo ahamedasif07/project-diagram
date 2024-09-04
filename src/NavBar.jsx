@@ -7,6 +7,7 @@ import { RxCross2 } from "react-icons/rx";
 import { FaRegUser } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -88,9 +89,12 @@ const NavBar = () => {
 
           <div className={`md:block ${isMenu ? "sm:block" : "hidden "}`}>
             <ul className="md:flex gap-4 gap-y-2 sm:pl-[45px] pl-[10px] md:pl-0 justify-center pb-3">
-              <li className="  py-2 text-[14px] text-gray-200  cursor-pointer">
+              <Link
+                to="/"
+                className="  py-2 text-[14px] text-gray-200  cursor-pointer"
+              >
                 HOME
-              </li>
+              </Link>
               {/* ------drop doern -----*/}
               <div className="relative">
                 {/* Main Clothing Menu */}
@@ -109,15 +113,28 @@ const NavBar = () => {
                 {/* Dropdown Menu */}
                 {isOpen && (
                   <div className="absolute left-0 mt-1 w-48 bg-[#242833]  shadow-lg rounded-md z-50">
-                    <ul className=" py-2 text-[14px] text-gray-200">
-                      <li className="px-4    py-2 text-[14px] text-gray-200 cursor-pointer">
+                    <div className="  py-2 text-[14px] text-gray-200">
+                      <Link
+                        to="/shirts"
+                        className="px-4    py-2 block text-[14px] text-gray-200 cursor-pointer uppercase"
+                      >
                         Shirt
-                      </li>
-                      <li className="px-4    py-2 text-[14px] text-gray-200 cursor-pointer">
+                      </Link>
+                      <Link className="px-4  block  py-2 text-[14px] text-gray-200 cursor-pointer uppercase">
                         T-Shirt
-                      </li>
+                      </Link>
+                      <Link
+                        to="/shirts"
+                        className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
+                      >
+                        Shirt
+                      </Link>
+                      <Link className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase">
+                        T-Shirt
+                      </Link>
+
                       {/* Add more items as needed */}
-                    </ul>
+                    </div>
                   </div>
                 )}
               </div>
