@@ -1,61 +1,88 @@
+import React, { useState, useEffect } from "react";
 import navLogo from "../public/images/diagram-home-page/NEW_LOGO.png";
 import { ImSearch } from "react-icons/im";
+import { BsHandbag } from "react-icons/bs";
+import { RiMenu2Fill } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
+
 const NavBar = () => {
+  const [isFixed, setIsFixed] = useState(false);
+  const [isScarch, setIsScarch] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > window.innerHeight * 0.1) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  console.log(isScarch);
+
   return (
     <div>
-      <div className="">
-        {/* nav upper */}
-
-        {/* nav mddle */}
-        <div className="navbar fixed z-10 bg-[#242833]">
-          <div className="navbar-start">
-            <div className="dropdown">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn btn-ghost btn-circle"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 text-white w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h7"
-                  />
-                </svg>
+      <div className="text-center bg-white py-2">
+        <h2 className="text-[13px] font-[13px]">One Lifestyle For Everyone</h2>
+      </div>
+      {/* ________middel nav__________ */}
+      <div className="relative">
+        <div className={isFixed ? "fixed top-0 w-full z-50" : ""}>
+          <div className="">
+            <div className="middel-nav">
+              <div className="bg-[#242833] flex justify-around items-center py-4">
+                <h2 className="text-white text-xl">
+                  <RiMenu2Fill />
+                </h2>
+                <img src={navLogo} alt="Logo" />
+                <div className="flex items-center gap-3">
+                  <h2
+                    onClick={() => setIsScarch(true)}
+                    className="text-white text-xl"
+                  >
+                    <ImSearch />
+                  </h2>
+                  <h2 className="text-white text-xl">
+                    <BsHandbag />
+                  </h2>
+                </div>
               </div>
-              <ul
-                tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-              >
-                <li>
-                  <a>Homepage</a>
-                </li>
-                <li>
-                  <a>Portfolio</a>
-                </li>
-                <li>
-                  <a>About</a>
-                </li>
-              </ul>
             </div>
           </div>
-          <div className="navbar-center">
-            <img className="md:w-full w-[100px]" src={navLogo} alt="" />
-          </div>
-          <div className="navbar-end">
-            <span className="text-white pr-3">
-              <ImSearch />
-            </span>
+        </div>
+        <div
+          className={
+            isScarch
+              ? "container left-0 right-0 mx-auto transition-all duration-300 absolute bottom-3 ease-in-out bg-[#242833] py-2"
+              : ""
+          }
+        >
+          <div
+            className={
+              isScarch
+                ? "max-w-[600px] bg-[#242833] container mx-auto  px-2 flex items-center gap-4 z-100"
+                : "hidden"
+            }
+          >
+            <input
+              className="py-2 px-4 w-full md:w-[600px] border-b-2 border-transparent focus:border-b-2 focus:border-black outline-none"
+              type="search"
+              placeholder="search"
+            />
+            <h2
+              onClick={() => setIsScarch(false)}
+              className="text-white text-xl cursor-pointer"
+            >
+              <RxCross2></RxCross2>
+            </h2>
           </div>
         </div>
-        {/* nav dowen */}
       </div>
     </div>
   );

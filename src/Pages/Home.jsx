@@ -37,7 +37,7 @@ const Home = () => {
   };
 
   // console.log(newAraivles);
-  console.log(demoProduct);
+  // console.log(demoProduct);
   return (
     <div>
       <Header></Header>
