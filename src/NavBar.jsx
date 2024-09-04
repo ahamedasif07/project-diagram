@@ -46,7 +46,7 @@ const NavBar = () => {
                         onClick={() => setIsMenu(!isMenu)}
                         className="text-white md:hidden block text-xl"
                       >
-                        <RiMenu2Fill />
+                        {isMenu ? <RxCross2></RxCross2> : <RiMenu2Fill />}
                       </h2>
                       <h2
                         onClick={() => setIsScarch(true)}
@@ -105,25 +105,27 @@ const NavBar = () => {
 
         {/* Search Bar */}
         <div
-          className={`transition-all duration-500 ease-in-out${
+          className={`transition-all duration-700 ease-in-out transform ${
             isScarch
-              ? " fixed  top-0 left-0 right-0 w-full z-50 bg-[#242833] py-2 "
-              : "hidden"
+              ? "fixed top-0 left-0 right-0 w-full z-50 bg-[#242833] py-2 opacity-100 translate-y-0"
+              : "opacity-0 -translate-y-full"
           }`}
         >
-          <div className="max-w-[600px]  mx-auto py-4 px-2 flex items-center gap-4">
-            <input
-              className="py-2 px-4 w-full md:w-[600px] border-b-2 border-transparent focus:border-b-2 focus:border-black outline-none"
-              type="search"
-              placeholder="search"
-            />
-            <h2
-              onClick={() => setIsScarch(false)}
-              className="text-white text-xl cursor-pointer"
-            >
-              <RxCross2 />
-            </h2>
-          </div>
+          {isScarch && (
+            <div className="max-w-[600px] mx-auto py-4 px-2 flex items-center gap-4">
+              <input
+                className="py-2 px-4 w-full md:w-[600px] border-b-2 border-transparent focus:border-black outline-none"
+                type="search"
+                placeholder="search"
+              />
+              <h2
+                onClick={() => setIsScarch(false)}
+                className="text-white text-xl cursor-pointer"
+              >
+                <RxCross2 />
+              </h2>
+            </div>
+          )}
         </div>
       </div>
       {/* Closing div */}
