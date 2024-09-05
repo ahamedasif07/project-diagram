@@ -30,7 +30,7 @@ const Home = () => {
     };
     fetching();
     demoFetching();
-  }, [products]);
+  }, []);
 
   //  handle view all
   const handleViewAll = () => {

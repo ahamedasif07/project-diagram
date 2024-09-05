@@ -169,7 +169,7 @@ const NavBar = () => {
           {isScarch && (
             <div className="max-w-[600px] mx-auto py-4 px-2 flex items-center gap-4">
               <input
-                className="py-2 px-4 w-full md:w-[600px] border-b-2 border-transparent focus:border-black outline-none"
+                className="py-2 px-4 w-full border-white border-2 bg-[#242833] md:w-[600px] border-b-2 border-transparent focus:border-black outline-none"
                 type="search"
                 placeholder="search"
               />
