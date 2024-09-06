@@ -94,8 +94,8 @@
     "id": 11,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1300,
-    "image1": "image11a.jpg",
-    "image2": "image11b.jpg",
+    "image1": "https://ibb.co/4j30Jbf",
+    "image2": "https://ibb.co/0FRPnYV",
     "category": "Panjabi",
     "name": "Panjabi"
   },
@@ -104,8 +104,8 @@
     "id": 13,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1100,
-    "image1": "image13a.jpg",
-    "image2": "image13b.jpg",
+    "image1": "https://ibb.co/QKT1tpN",
+    "image2": "https://ibb.co/m0GR5ht",
     "category": "polo-shirt",
     "name": "Polo-Shirt"
   },
@@ -114,8 +114,8 @@
     "id": 14,
     "sizes": ["S", "M", "L", "XL"],
     "price": 900,
-    "image1": "image14a.jpg",
-    "image2": "image14b.jpg",
+    "image1": "https://ibb.co/Rg46Bnn",
+    "image2": "https://ibb.co/VYMhBD4",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
@@ -124,10 +124,10 @@
     "id": 15,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1500,
-    "image1": "image15a.jpg",
-    "image2": "image15b.jpg",
-    "category": "joggers",
-    "name": "Joggers"
+    "image1": "https://ibb.co/GdTJqhT",
+    "image2": "https://ibb.co/1RhWGN8",
+    "category": "pent",
+    "name": "pent"
   },
   {
     "code_name": "sh-11",
@@ -144,8 +144,8 @@
     "id": 17,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1700,
-    "image1": "image17a.jpg",
-    "image2": "image17b.jpg",
+    "image1": "https://ibb.co/ZBLTnt3",
+    "image2": "https://ibb.co/R6zJJY2",
     "category": "panjabi",
     "name": "Panjabi"
   },
@@ -154,18 +154,18 @@
     "id": 19,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1300,
-    "image1": "image19a.jpg",
-    "image2": "image19b.jpg",
+    "image1": "https://ibb.co/r4R9kSK",
+    "image2": "https://ibb.co/1vj6X77",
     "category": "polo-shirt",
-    "name": "Polo Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-33",
     "id": 20,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1000,
-    "image1": "image20a.jpg",
-    "image2": "image20b.jpg",
+    "image1": "https://ibb.co/PDwrYbC",
+    "image2": "https://ibb.co/dQw0sPc",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
@@ -174,10 +174,10 @@
     "id": 21,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1400,
-    "image1": "image21a.jpg",
-    "image2": "image21b.jpg",
-    "category": "joggers",
-    "name": "Joggers"
+    "image1": "https://ibb.co/C0YcWLv",
+    "image2": "https://ibb.co/3mFTWxb",
+    "category": "pent",
+    "name": "pent"
   },
   {
     "code_name": "sh-13",
@@ -194,8 +194,8 @@
     "id": 23,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1600,
-    "image1": "image23a.jpg",
-    "image2": "image23b.jpg",
+    "image1": "https://ibb.co/s6nYxnn",
+    "image2": "https://ibb.co/GcGnGWs",
     "category": "panjabi",
     "name": "Panjabi"
   },
@@ -205,8 +205,8 @@
     "id": 24,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1350,
-    "image1": "image24a.jpg",
-    "image2": "image24b.jpg",
+    "image1": "https://ibb.co/Nx3mG1S",
+    "image2": "https://ibb.co/Jn6ZYk4",
     "category": "polo-shirt",
     "name": "Polo-Shirt"
   },
@@ -215,8 +215,8 @@
     "id": 25,
     "sizes": ["S", "M", "L", "XL"],
     "price": 920,
-    "image1": "image25a.jpg",
-    "image2": "image25b.jpg",
+    "image1": "https://ibb.co/LQRB7c7",
+    "image2": "https://ibb.co/3F4hjT6",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
@@ -225,10 +225,10 @@
     "id": 26,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1550,
-    "image1": "image26a.jpg",
-    "image2": "image26b.jpg",
-    "category": "joggers",
-    "name": "Joggers"
+    "image1": "https://ibb.co/7vmxBbj",
+    "image2": "https://ibb.co/DkszJsf",
+    "category": "pent",
+    "name": "pent"
   },
   {
     "code_name": "sh-15",
@@ -245,8 +245,8 @@
     "id": 28,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1750,
-    "image1": "image28a.jpg",
-    "image2": "image28b.jpg",
+    "image1": "https://ibb.co/HncL4n2",
+    "image2": "https://ibb.co/Pr26Z9x",
     "category": "panjabi",
     "name": "Panjabi"
   },
@@ -255,18 +255,18 @@
     "id": 29,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1400,
-    "image1": "image29a.jpg",
-    "image2": "image29b.jpg",
+    "image1": "https://ibb.co/KrztVfr",
+    "image2": "https://ibb.co/1mBsT0X",
     "category": "polo-shirt",
-    "name": "Polo Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-50",
     "id": 30,
     "sizes": ["S", "M", "L", "XL"],
     "price": 800,
-    "image1": "image30a.jpg",
-    "image2": "image30b.jpg",
+    "image1": "https://ibb.co/tq2c1DM",
+    "image2": "https://ibb.co/YNPG0jT",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
@@ -275,10 +275,10 @@
     "id": 31,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1450,
-    "image1": "image31a.jpg",
-    "image2": "image31b.jpg",
-    "category": "joggers",
-    "name": "Joggers"
+    "image1": "https://ibb.co/gMgvMNX",
+    "image2": "https://ibb.co/7tVJ3NR",
+    "category": "pent",
+    "name": "pent"
   },
   {
     "code_name": "sh-20",
@@ -295,8 +295,8 @@
     "id": 33,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1700,
-    "image1": "image33a.jpg",
-    "image2": "image33b.jpg",
+    "image1": "https://ibb.co/dbwT4q4",
+    "image2": "https://ibb.co/q9chxhF",
     "category": "panjabi",
     "name": "Panjabi"
   },
@@ -305,18 +305,18 @@
     "id": 34,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1300,
-    "image1": "image34a.jpg",
-    "image2": "image34b.jpg",
+    "image1": "https://ibb.co/WtWPsTG",
+    "image2": "https://ibb.co/d53Xbpw",
     "category": "polo-shirt",
-    "name": "Polo Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-35",
     "id": 35,
     "sizes": ["S", "M", "L", "XL"],
     "price": 950,
-    "image1": "image35a.jpg",
-    "image2": "image35b.jpg",
+    "image1": "https://ibb.co/VvPYnMX",
+    "image2": "https://ibb.co/dKFffdx",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
@@ -325,10 +325,10 @@
     "id": 36,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1500,
-    "image1": "image36a.jpg",
-    "image2": "image36b.jpg",
-    "category": "joggers",
-    "name": "Joggers"
+    "image1": "https://ibb.co/wgqFKCG",
+    "image2": "https://ibb.co/BzqnT3S",
+    "category": "pent",
+    "name": "pent"
   },
   {
     "code_name": "sh-25",
@@ -345,8 +345,8 @@
     "id": 38,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1650,
-    "image1": "image38a.jpg",
-    "image2": "image38b.jpg",
+    "image1": "https://ibb.co/gVccTJN",
+    "image2": "https://ibb.co/8MYGYfk",
     "category": "panjabi",
     "name": "Panjabi"
   },
@@ -355,18 +355,18 @@
     "id": 39,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1350,
-    "image1": "image39a.jpg",
-    "image2": "image39b.jpg",
+    "image1": "https://i.ibb.co/zG7712h/10.png",
+    "image2": "https://i.ibb.co/DGLkKYw/salmancover03.jpg",
     "category": "polo-shirt",
-    "name": "Polo Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-40",
     "id": 40,
     "sizes": ["S", "M", "L", "XL"],
     "price": 980,
-    "image1": "image40a.jpg",
-    "image2": "image40b.jpg",
+    "image1": "https://ibb.co/b35W44L",
+    "image2": "https://ibb.co/FV07w3G",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
@@ -375,10 +375,10 @@
     "id": 41,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1480,
-    "image1": "image41a.jpg",
-    "image2": "image41b.jpg",
-    "category": "joggers",
-    "name": "Joggers"
+    "image1": "https://ibb.co/p28Snq0",
+    "image2": "https://ibb.co/wRZmMcW",
+    "category": "pent",
+    "name": "pent"
   },
   {
     "code_name": "sh-30",
@@ -389,15 +389,5 @@
     "image2": "https://i.ibb.co/fY4TW7B/poster-02-1.png",
     "category": "shirt",
     "name": "Shirt"
-  },
-  {
-    "code_name": "pn-130",
-    "id": 43,
-    "sizes": ["S", "M", "L", "XL"],
-    "price": 1730,
-    "image1": "image43a.jpg",
-    "image2": "image43b.jpg",
-    "category": "panjabi",
-    "name": "Panjabi"
   }
 ]
