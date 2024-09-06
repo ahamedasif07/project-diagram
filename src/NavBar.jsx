@@ -34,7 +34,7 @@ const NavBar = () => {
   return (
     <div>
       {/* Top Bar */}
-      <div className="text-center bg-white py-2">
+      <div className="text-center bg-white pr-5 py-2">
         <h2 className="text-[13px] font-[13px]">One Lifestyle For Everyone</h2>
       </div>
 
@@ -55,7 +55,7 @@ const NavBar = () => {
                       </h2>
                       <h2
                         onClick={() => setIsScarch(true)}
-                        className="text-white text-xl md:opacity-100 opacity-0 "
+                        className="text-white text-xl md:block hidden "
                       >
                         <CiSearch />
                       </h2>
@@ -68,7 +68,7 @@ const NavBar = () => {
                     <div className="flex items-center gap-3">
                       <h2
                         onClick={() => setIsScarch(true)}
-                        className="text-white opacity-100 md:opacity-0 text-xl"
+                        className="text-white block md:hidden text-xl"
                       >
                         <CiSearch />
                       </h2>
