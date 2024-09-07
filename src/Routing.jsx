@@ -5,6 +5,7 @@ import Shirts from "./Pages/Shirts";
 import { Tshirts } from "./Pages/Tshirts";
 import { PoloShirts } from "./Pages/PoloShirts";
 import { Panjabis } from "./Pages/Panjabis";
+import { Pents } from "./Pages/Pents";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/panjbis",
         element: <Panjabis></Panjabis>,
+      },
+      {
+        path: "/pents",
+        element: <Pents></Pents>,
       },
     ], // Correct JSX syntax
   },

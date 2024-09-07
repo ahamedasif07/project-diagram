@@ -20,7 +20,7 @@
     "name": "polo-shirt"
   },
   {
-    "code_name": "jg-32",
+    "code_name": "pt-32",
     "id": 3,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1400,
@@ -70,7 +70,7 @@
     "name": "polo-shirt"
   },
   {
-    "code_name": "jg-41",
+    "code_name": "pt-41",
     "id": 9,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1450,
@@ -120,12 +120,12 @@
     "name": "T-Shirt"
   },
   {
-    "code_name": "jg-29",
+    "code_name": "pt-29",
     "id": 15,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1500,
-    "image1": "https://ibb.co/GdTJqhT",
-    "image2": "https://ibb.co/1RhWGN8",
+    "image1": "https://i.postimg.cc/509PzCZM/Product-Image-1724218786.jpg",
+    "image2": "https://i.postimg.cc/1zGTwPXD/Product-Image-11724218786.jpg",
     "category": "pent",
     "name": "pent"
   },
@@ -170,12 +170,12 @@
     "name": "T-Shirt"
   },
   {
-    "code_name": "jg-47",
+    "code_name": "pt-47",
     "id": 21,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1400,
-    "image1": "https://ibb.co/C0YcWLv",
-    "image2": "https://ibb.co/3mFTWxb",
+    "image1": "https://i.postimg.cc/MGML3qvc/Product-Image-1717249847.jpg",
+    "image2": "https://i.postimg.cc/9MynVbPC/Product-Image-11717249847.jpg",
     "category": "pent",
     "name": "pent"
   },
@@ -221,12 +221,12 @@
     "name": "T-Shirt"
   },
   {
-    "code_name": "jg-55",
+    "code_name": "pt-55",
     "id": 26,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1550,
-    "image1": "https://ibb.co/7vmxBbj",
-    "image2": "https://ibb.co/DkszJsf",
+    "image1": "https://i.postimg.cc/Bbg7Pvwz/Product-Image-1717250107.jpg",
+    "image2": "https://i.postimg.cc/GhL5wk4n/Product-Image-11717250107.jpg",
     "category": "pent",
     "name": "pent"
   },
@@ -271,12 +271,12 @@
     "name": "T-Shirt"
   },
   {
-    "code_name": "jg-60",
+    "code_name": "pt-60",
     "id": 31,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1450,
-    "image1": "https://ibb.co/gMgvMNX",
-    "image2": "https://ibb.co/7tVJ3NR",
+    "image1": "https://i.postimg.cc/rwzZzMGh/Product-Image-1717250536.jpg",
+    "image2": "https://i.postimg.cc/XYhHCmQn/Product-Image-11717250536.jpg",
     "category": "pent",
     "name": "pent"
   },
@@ -316,17 +316,17 @@
     "sizes": ["S", "M", "L", "XL"],
     "price": 950,
     "image1": "https://i.postimg.cc/BvTwLYFw/Screenshot2024-07-11185330.png",
-    "image2": "https://i.postimg.cc/gJGtvVqc/Screenshot2024-07-11185339.png",
+    "image2": "https://i.postimg.cc/gpttvVqc/Screenshot2024-07-11185339.png",
     "category": "t-shirt",
     "name": "T-Shirt"
   },
   {
-    "code_name": "jg-65",
+    "code_name": "pt-65",
     "id": 36,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1500,
-    "image1": "https://ibb.co/wgqFKCG",
-    "image2": "https://ibb.co/BzqnT3S",
+    "image1": "https://i.postimg.cc/0Q1VtST3/Product-Image-1719213028.jpg",
+    "image2": "https://i.postimg.cc/FRbDwRmK/Product-Image-11719213028.jpg",
     "category": "pent",
     "name": "pent"
   },
@@ -371,12 +371,12 @@
     "name": "T-Shirt"
   },
   {
-    "code_name": "jg-70",
+    "code_name": "pt-70",
     "id": 41,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1480,
-    "image1": "https://ibb.co/p28Snq0",
-    "image2": "https://ibb.co/wRZmMcW",
+    "image1": "https://i.postimg.cc/KvpQ6CXt/Product-Image-1724218968.jpg",
+    "image2": "https://i.postimg.cc/XYZx4x3m/Product-Image-11724218968.jpg",
     "category": "pent",
     "name": "pent"
   },

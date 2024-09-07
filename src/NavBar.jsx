@@ -138,6 +138,12 @@ const NavBar = () => {
                       >
                         panjabi
                       </Link>
+                      <Link
+                        to="/pents"
+                        className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
+                      >
+                        pents
+                      </Link>
 
                       {/* Add more items as needed */}
                     </div>
