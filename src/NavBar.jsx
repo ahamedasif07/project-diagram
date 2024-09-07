@@ -120,7 +120,10 @@ const NavBar = () => {
                       >
                         Shirt
                       </Link>
-                      <Link className="px-4  block  py-2 text-[14px] text-gray-200 cursor-pointer uppercase">
+                      <Link
+                        to="/tShirts"
+                        className="px-4  block  py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
+                      >
                         T-Shirt
                       </Link>
                       <Link
