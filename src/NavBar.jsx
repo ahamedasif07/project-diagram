@@ -132,8 +132,11 @@ const NavBar = () => {
                       >
                         polo-Shirt
                       </Link>
-                      <Link className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase">
-                        T-Shirt
+                      <Link
+                        to="/panjbis"
+                        className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
+                      >
+                        panjabi
                       </Link>
 
                       {/* Add more items as needed */}
