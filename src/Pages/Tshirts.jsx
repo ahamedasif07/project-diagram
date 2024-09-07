@@ -38,7 +38,7 @@ export const Tshirts = () => {
           {/* --------shirts----- */}
           <div className="md:max-w-[1100px] mx-auto">
             <div className="grid px-4   justify-center pt-3 lg:grid-cols-4 md:grid-cols-3 grid-cols-1  md:gap-5">
-              {iSLoading ? (
+              {isLoading ? (
                 <>
                   <CardSpiner></CardSpiner>
                   <CardSpiner></CardSpiner>

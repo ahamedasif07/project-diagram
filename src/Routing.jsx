@@ -6,11 +6,14 @@ import { Tshirts } from "./Pages/Tshirts";
 import { PoloShirts } from "./Pages/PoloShirts";
 import { Panjabis } from "./Pages/Panjabis";
 import { Pents } from "./Pages/Pents";
+import { ErrorPage } from "./Pages/ErrorPage";
+import DetailsPage from "./Pages/DetailsPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <LayOut />,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -35,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: "/pents",
         element: <Pents></Pents>,
+      },
+      {
+        path: "/details/:id",
+        element: <DetailsPage></DetailsPage>,
       },
     ], // Correct JSX syntax
   },
