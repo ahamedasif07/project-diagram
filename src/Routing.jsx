@@ -3,6 +3,7 @@ import LayOut from "./LayOut"; // Correct import for LayOut component
 import Home from "./Pages/Home";
 import Shirts from "./Pages/Shirts";
 import { Tshirts } from "./Pages/Tshirts";
+import { PoloShirts } from "./Pages/PoloShirts";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "/tShirts",
         element: <Tshirts></Tshirts>,
+      },
+      {
+        path: "/PoloShirts",
+        element: <PoloShirts></PoloShirts>,
       },
     ], // Correct JSX syntax
   },

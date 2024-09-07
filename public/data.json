@@ -7,7 +7,7 @@
     "image1": "https://i.ibb.co/QbTQmLX/2.png",
     "image2": "https://i.ibb.co/4Rr4H7Y/Artboard5-1bdaed7e-8a2c-4a8f-96dc-38c664057dd1.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-11",
@@ -17,7 +17,7 @@
     "image1": "https://i.ibb.co/WBWJyyh/6-cf47f9db-f24e-4ff4-ba4a-52adb83b2197.png",
     "image2": "https://i.ibb.co/nQm1BQM/Artboard2-06492587-d25a-421f-8e94-9712c790614d.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "jg-32",
@@ -27,7 +27,7 @@
     "image1": "https://i.ibb.co/zG7712h/10.png",
     "image2": "https://i.ibb.co/DGLkKYw/salmancover03.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "sh-21",
@@ -37,7 +37,7 @@
     "image1": "https://i.ibb.co/GJ1T3rw/7.png",
     "image2": "https://i.ibb.co/12pHCFX/Artboard2-5c5607a9-ba80-4fc9-abd7-7132811a9488.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "pn-55",
@@ -47,7 +47,7 @@
     "image1": "https://i.ibb.co/SQRTNFC/12-007c3184-7fd2-4856-a2d9-f5675a00c3d9.png",
     "image2": "https://i.ibb.co/g3jQM8G/Artboard3-f29a8d68-2599-473f-826f-47f93b799d83.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "pl-89",
@@ -57,7 +57,7 @@
     "image1": "https://i.ibb.co/Xy28fWH/6-cf47f9db-f24e-4ff4-ba4a-52adb83b2197-2.png",
     "image2": "https://i.ibb.co/M8k9JQN/Artboard3-9b334fb6-1da3-419a-9fe4-bdc389ce73e4.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-22",
@@ -67,7 +67,7 @@
     "image1": "https://i.ibb.co/8gG2Jk4/PD-34.png",
     "image2": "https://i.ibb.co/4jW31df/Artboard1-4a8f1a55-39df-4879-ab8e-4a3506851068.jpg",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "jg-41",
@@ -77,7 +77,7 @@
     "image2": "https://i.ibb.co/v3y06Gq/Artboard6.jpg",
     "image1": "https://i.ibb.co/q1JSdGG/3.png",
     "category": "new-arrival",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "sh-67",
@@ -86,7 +86,7 @@
     "price": 1550,
     "image1": "https://i.ibb.co/L59TVCc/11-fddf6a6c-9c52-4148-b7f4-353c1e1d3d40.png",
     "image2": "https://i.ibb.co/bmgfjnt/Artboard3-3ce30452-5510-4f02-87d9-20423016249a.jpg",
-    "name": "Polo-Shirt",
+    "name": "polo-shirt",
     "category": "new-arrival"
   },
   {
@@ -104,10 +104,10 @@
     "id": 13,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1100,
-    "image1": "https://ibb.co.com/W5y1pVV",
-    "image2": "https://ibb.co.com/1JRBJrw",
+    "image1": "https://i.postimg.cc/rFRjRZXC/Artboard3-62efe173-8925-4b9b-955b-4812d302599b.jpg",
+    "image2": "https://i.postimg.cc/kgxyfV52/Artboard1-8f189050-c547-4c7a-8abd-beb4e9cf9a06.jpg",
     "category": "polo-shirt",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-19",
@@ -154,8 +154,8 @@
     "id": 19,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1300,
-    "image1": "https://ibb.co/r4R9kSK",
-    "image2": "https://ibb.co/1vj6X77",
+    "image1": "https://i.postimg.cc/Y2Zf7NG4/56-d0649fb1-4a83-4aad-ad74-0d551dd55514.jpg",
+    "image2": "https://i.postimg.cc/Y2Zf7NG4/56-d0649fb1-4a83-4aad-ad74-0d551dd55514.jpg",
     "category": "polo-shirt",
     "name": "polo-shirt"
   },
@@ -205,10 +205,10 @@
     "id": 24,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1350,
-    "image1": "https://ibb.co/Nx3mG1S",
-    "image2": "https://ibb.co/Jn6ZYk4",
+    "image1": "https://i.postimg.cc/QdrQ9Xqh/Screenshot2024-07-11182802.png",
+    "image2": "https://i.postimg.cc/Zqb6HVgQ/Screenshot2024-07-11182732.png",
     "category": "polo-shirt",
-    "name": "Polo-Shirt"
+    "name": "polo-shirt"
   },
   {
     "code_name": "ts-30",
@@ -255,8 +255,8 @@
     "id": 29,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1400,
-    "image1": "https://ibb.co/KrztVfr",
-    "image2": "https://ibb.co/1mBsT0X",
+    "image1": "https://i.postimg.cc/fRhjQs2t/Screenshot2024-07-11184412.png",
+    "image2": "https://i.postimg.cc/G9nyyQGq/Screenshot2024-07-11184421.png",
     "category": "polo-shirt",
     "name": "polo-shirt"
   },
@@ -305,8 +305,8 @@
     "id": 34,
     "sizes": ["S", "M", "L", "XL"],
     "price": 1300,
-    "image1": "https://ibb.co/WtWPsTG",
-    "image2": "https://ibb.co/d53Xbpw",
+    "image1": "https://i.postimg.cc/13c09d2W/Screenshot2024-07-11184848.png",
+    "image2": "https://i.postimg.cc/43f6n5TX/Screenshot2024-07-11184858.png",
     "category": "polo-shirt",
     "name": "polo-shirt"
   },

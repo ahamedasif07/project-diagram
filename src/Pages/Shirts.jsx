@@ -33,7 +33,7 @@ const Shirts = () => {
       ) : (
         <>
           <ProductInfo
-            title={"Shart"}
+            title={"Shirts"}
             paragraph={`Introducing Diagram's vibrant Cuban Shirt Collection – where premium
 viscose cotton meets bold style and abstract charm!
 

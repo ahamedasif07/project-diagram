@@ -35,13 +35,8 @@ export const Tshirts = () => {
         ) : (
           <>
             <ProductInfo
-              title={"T-Shart"}
-              paragraph={`Introducing Diagram's vibrant Cuban Shirt Collection – where premium
-viscose cotton meets bold style and abstract charm!
-
-Crafted from fine viscose cotton fabric, our shirts offer unrivaled softness and breathability,
-ensuring you stay cool and confident all day long. Each shirt boasts a unique blend of
-             colors and abstract patterns, adding a touch of personality to your ensemble.f`}
+              title={"T-Shirt"}
+              paragraph={`Revolutionizing fashion with Polo Shirts. Impeccable fit, unmatched comfort, and contemporary flair.`}
             />
 
             {/* --------shirts----- */}

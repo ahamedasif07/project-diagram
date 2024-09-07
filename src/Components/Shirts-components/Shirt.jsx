@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const Shirt = ({ shirt }) => {
   const { id, name, category, code_name, image1, image2, price, sizes } = shirt;
+
   const [isHovered, setIsHovered] = useState(false);
   //   console.log(shirt);
   return (
