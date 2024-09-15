@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 
 import Header from "../Components/Home-Components/Header";
@@ -15,12 +16,13 @@ const Home = () => {
 
   const [newAraivles, setNewAraivles] = useState([]);
   const [showAll, setShowAll] = useState(8);
+  const [filterCatagory, setFilterCatagory] = useState("new-arrival");
   const [demoProduct, setDemoproduct] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const newArible = AllProducts.filter(
-      (product) => product.category === "new-arrival"
+      (product) => product.category === filterCatagory
     );
     console.log(newAraivles);
     setNewAraivles(newArible);
@@ -32,7 +34,7 @@ const Home = () => {
     };
 
     demoFetching();
-  }, [AllProducts, newAraivles]);
+  }, [AllProducts, filterCatagory]);
 
   //  handle view all
   const handleViewAll = () => {
