@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 
 import Header from "../Components/Home-Components/Header";
 import Product from "../Components/Home-Components/Product";
@@ -7,8 +7,11 @@ import Details from "../Components/Home-Components/Details";
 import HomeFotter from "../Components/Home-Components/HomeFotter";
 import ProductInfo from "../Components/ProductInfo";
 import Spiner from "../Components/Loader/Spiner";
+import { ProductContext } from "../LayOut";
 
 const Home = () => {
+  const AllProducts = useContext(ProductContext);
+  console.log("from contex", AllProducts);
   const [products, setProducts] = useState([]);
   const [newAraivles, setNewAraivles] = useState([]);
   const [showAll, setShowAll] = useState(8);
@@ -16,32 +19,26 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const fetching = async () => {
-      const res = await fetch("../../public/data.json");
-      const data = await res.json();
-      setProducts(data);
-      const newArible = products.filter(
-        (product) => product.category === "new-arrival"
-      );
-      setNewAraivles(newArible);
-    };
+    const newArible = AllProducts.filter(
+      (product) => product.category === "new-arrival"
+    );
+    console.log(newAraivles);
+    setNewAraivles(newArible);
     const demoFetching = async () => {
       const res = await fetch("../../public/product.json");
       const demoData = await res.json();
       setDemoproduct(demoData);
       setIsLoading(false);
     };
-    fetching();
+
     demoFetching();
-  }, [products]);
+  }, [AllProducts, newAraivles]);
 
   //  handle view all
   const handleViewAll = () => {
     setShowAll(showAll + 8);
   };
 
-  // console.log(newAraivles);
-  // console.log(demoProduct);
   return (
     <div>
       {isLoading ? (
@@ -83,7 +80,7 @@ const Home = () => {
                 Product Collection
               </h2>
             </div>
-            <div className="  ">
+            <div className="">
               <div className="grid px-4  justify-center pt-3 lg:grid-cols-4 md:grid-cols-3 grid-cols-1  md:gap-5">
                 {demoProduct.map((demo) => (
                   <div className="px-4 md:px-0 pb-5" key={demo.id}>

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Shirt from "../Components/Shirts-components/Shirt";
 import ProductInfo from "../Components/ProductInfo";
-import Spiner from "../Components/Loader/Spiner";
+
 import { ProductContext } from "../LayOut";
 import { CardSpiner } from "../Components/CardSpiner/CardSpiner";
 
