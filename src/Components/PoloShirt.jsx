@@ -16,12 +16,17 @@ export const PoloShirt = ({ poloShirt }) => {
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <img
-                src={isHovered ? image2 : image1}
-                className="w-full h-auto transition-transform duration-500 ease-in-out"
-                style={{ transform: isHovered ? "scale(1.05)" : "scale(1)" }}
-                alt=""
-              />
+              <div className="flex flex-col items-center relative group">
+                <img
+                  src={isHovered ? image2 : image1}
+                  className="w-full h-auto transition-transform duration-500 ease-in-out"
+                  style={{ transform: isHovered ? "scale(1.05)" : "scale(1)" }}
+                  alt=""
+                />
+                <button className=" absolute bottom-0 group-hover:bottom-2 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100 border-red-500 bg-gray-50 px-3 py-1 font-semibold">
+                  add to cart
+                </button>
+              </div>
               <h2 className="pt-4 pb-2  text-[12px]">
                 {name}
                 <span className="border-l-2 border-[#b9b7b5] pl-1">
