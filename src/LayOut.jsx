@@ -11,7 +11,7 @@ const LayOut = () => {
   useEffect(() => {
     const fetching = async () => {
       try {
-        const res = await fetch("../public/data.json");
+        const res = await fetch("/data.json");
         const data = await res.json();
         setAllproducts(data);
       } catch (error) {

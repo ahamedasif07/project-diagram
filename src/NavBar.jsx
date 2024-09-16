@@ -98,11 +98,11 @@ const NavBar = () => {
               {/* ------drop doern -----*/}
               <div className="relative">
                 {/* Main Clothing Menu */}
-                <button
-                  onClick={() => setIsOpen(!isOpen)}
-                  className="  py-2 text-[14px] text-gray-200    rounded-md"
-                >
-                  <h2 className="flex items-center">
+                <button className="  py-2 text-[14px] text-gray-200    rounded-md">
+                  <h2
+                    onClick={() => setIsOpen(!isOpen)}
+                    className="flex items-center"
+                  >
                     CLOTHING
                     <span className="ml-2">
                       {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
