@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import navLogo from "../public/images/diagram-home-page/NEW_LOGO.png";
 import { CiSearch } from "react-icons/ci";
 import { BsHandbag } from "react-icons/bs";
@@ -156,12 +156,18 @@ const NavBar = () => {
                 )}
               </div>
 
-              <li className="  py-2 text-[14px] text-gray-200 cursor-pointer">
+              <Link
+                to="/accessories"
+                className="  py-2 text-[14px] text-gray-200 cursor-pointer"
+              >
                 ACCESSORIES
-              </li>
-              <li className="  py-2 text-[14px] text-gray-200 cursor-pointer">
+              </Link>
+              <Link
+                to="/shoes"
+                className="  py-2 text-[14px] text-gray-200 cursor-pointer"
+              >
                 SHOES
-              </li>
+              </Link>
             </ul>
           </div>
         </div>

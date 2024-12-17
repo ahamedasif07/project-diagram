@@ -8,6 +8,8 @@ import { Panjabis } from "./Pages/Panjabis";
 import { Pents } from "./Pages/Pents";
 import { ErrorPage } from "./Pages/ErrorPage";
 import DetailsPage from "./Pages/DetailsPage";
+import Accesories from "./Pages/Accesories";
+import Shoes from "./Pages/Shoes";
 
 export const router = createBrowserRouter([
   {
@@ -42,6 +44,14 @@ export const router = createBrowserRouter([
       {
         path: "/details/:id",
         element: <DetailsPage></DetailsPage>,
+      },
+      {
+        path: "/accessories",
+        element: <Accesories></Accesories>,
+      },
+      {
+        path: "/shoes",
+        element: <Shoes></Shoes>,
       },
     ], // Correct JSX syntax
   },
