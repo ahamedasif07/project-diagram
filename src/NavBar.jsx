@@ -116,30 +116,35 @@ const NavBar = () => {
                     <div className="  py-2 text-[14px] text-gray-200">
                       <Link
                         to="/shirts"
+                        onClick={() => setIsOpen(false)}
                         className="px-4    py-2 block text-[14px] text-gray-200 cursor-pointer uppercase"
                       >
                         Shirt
                       </Link>
                       <Link
                         to="/tShirts"
+                        onClick={() => setIsOpen(false)}
                         className="px-4  block  py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
                       >
                         T-Shirt
                       </Link>
                       <Link
                         to="/PoloShirts"
+                        onClick={() => setIsOpen(false)}
                         className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
                       >
                         polo-Shirt
                       </Link>
                       <Link
                         to="/panjbis"
+                        onClick={() => setIsOpen(false)}
                         className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
                       >
                         panjabi
                       </Link>
                       <Link
                         to="/pents"
+                        onClick={() => setIsOpen(false)}
                         className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
                       >
                         pents
