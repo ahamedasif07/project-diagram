@@ -11,6 +11,7 @@ import DetailsPage from "./Pages/DetailsPage";
 import Accesories from "./Pages/Accesories";
 import Shoes from "./Pages/Shoes";
 import LoginForm from "./Pages/login";
+import RegistrationForm from "./Pages/Registation";
 
 export const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
       {
         path: "/login",
         element: <LoginForm></LoginForm>,
+      },
+      {
+        path: "/registation",
+        element: <RegistrationForm></RegistrationForm>,
       },
     ], // Correct JSX syntax
   },
