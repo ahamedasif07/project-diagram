@@ -10,6 +10,7 @@ import { ErrorPage } from "./Pages/ErrorPage";
 import DetailsPage from "./Pages/DetailsPage";
 import Accesories from "./Pages/Accesories";
 import Shoes from "./Pages/Shoes";
+import LoginForm from "./Pages/login";
 
 export const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
       {
         path: "/shoes",
         element: <Shoes></Shoes>,
+      },
+      {
+        path: "/login",
+        element: <LoginForm></LoginForm>,
       },
     ], // Correct JSX syntax
   },

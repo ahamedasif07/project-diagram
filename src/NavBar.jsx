@@ -72,9 +72,12 @@ const NavBar = () => {
                       >
                         <CiSearch />
                       </h2>
-                      <h2 className="text-white hidden md:block text-xl">
+                      <Link
+                        to="/login"
+                        className="text-white hidden md:block text-xl"
+                      >
                         <FaRegUser />
-                      </h2>
+                      </Link>
                       <h2 className="text-white text-xl">
                         <BsHandbag />
                       </h2>
