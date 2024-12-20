@@ -4,6 +4,7 @@ import ProductInfo from "../Components/ProductInfo";
 
 import { ProductContext } from "../LayOut";
 import { CardSpiner } from "../Components/CardSpiner/CardSpiner";
+import { ProductCard } from "../Components/ProductCard";
 
 const Shirts = () => {
   const [shirts, setShrits] = useState([]);
@@ -53,8 +54,8 @@ colors and abstract patterns, adding a touch of personality to your ensemble.f`}
               </>
             ) : (
               <>
-                {shirts.map((shirt, idx) => (
-                  <Shirt shirt={shirt} key={idx}></Shirt>
+                {shirts.map((product) => (
+                  <ProductCard product={product} key={product.id}></ProductCard>
                 ))}
               </>
             )}

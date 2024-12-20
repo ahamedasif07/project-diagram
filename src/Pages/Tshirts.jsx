@@ -4,6 +4,7 @@ import Spiner from "../Components/Loader/Spiner";
 import ProductInfo from "../Components/ProductInfo";
 import { Tshirt } from "../Components/Tshirt";
 import { CardSpiner } from "../Components/CardSpiner/CardSpiner";
+import { ProductCard } from "../Components/ProductCard";
 
 export const Tshirts = () => {
   const allProduct = useContext(ProductContext); // Check if this context is providing correct data
@@ -51,8 +52,11 @@ export const Tshirts = () => {
                 </>
               ) : (
                 <>
-                  {allTshirts.map((tShirt, idx) => (
-                    <Tshirt tShirt={tShirt} key={idx}></Tshirt>
+                  {setAllTshirts.map((product) => (
+                    <ProductCard
+                      product={product}
+                      key={product.id}
+                    ></ProductCard>
                   ))}
                 </>
               )}

@@ -4,6 +4,7 @@ import { Pant } from "../Components/Pant";
 import Spiner from "../Components/Loader/Spiner";
 import ProductInfo from "../Components/ProductInfo";
 import { CardSpiner } from "../Components/CardSpiner/CardSpiner";
+import { ProductCard } from "../Components/ProductCard";
 
 export const Pents = () => {
   const allProducts = useContext(ProductContext);
@@ -44,8 +45,8 @@ viscose cotton meets bold style and abstract charm!
               </>
             ) : (
               <>
-                {allPents.map((pent) => (
-                  <Pant pent={pent} key={pent.id}></Pant>
+                {allPents.map((product) => (
+                  <ProductCard product={product} key={product.id}></ProductCard>
                 ))}
               </>
             )}

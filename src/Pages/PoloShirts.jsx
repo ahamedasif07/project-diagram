@@ -4,6 +4,7 @@ import Spiner from "../Components/Loader/Spiner";
 import ProductInfo from "../Components/ProductInfo";
 import { PoloShirt } from "../Components/PoloShirt";
 import { CardSpiner } from "../Components/CardSpiner/CardSpiner";
+import { ProductCard } from "../Components/ProductCard";
 
 export const PoloShirts = () => {
   const allProducts = useContext(ProductContext);
@@ -48,8 +49,11 @@ export const PoloShirts = () => {
                 </>
               ) : (
                 <>
-                  {allPoloShirts.map((poloShirt, idx) => (
-                    <PoloShirt poloShirt={poloShirt} key={idx}></PoloShirt>
+                  {allPoloShirts.map((product) => (
+                    <ProductCard
+                      product={product}
+                      key={product.id}
+                    ></ProductCard>
                   ))}
                 </>
               )}
