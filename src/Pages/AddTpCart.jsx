@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AddToCartContex } from "../LayOut";
 
 const AddTpCart = () => {
-  return <div>add to cart</div>;
+  const { addToCart } = useContext(AddToCartContex);
+  console.log(addToCart);
+
+  return <div>
+    {
+        addToCart.map(product => <ProductCa)
+    }
+  </div>;
 };
 
 export default AddTpCart;

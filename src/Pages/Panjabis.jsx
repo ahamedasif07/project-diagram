@@ -4,6 +4,7 @@ import Spiner from "../Components/Loader/Spiner";
 import ProductInfo from "../Components/ProductInfo";
 import { Panjabi } from "../Components/Panjabi";
 import { CardSpiner } from "../Components/CardSpiner/CardSpiner";
+import { ProductCard } from "../Components/ProductCard";
 
 export const Panjabis = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -49,8 +50,11 @@ Experience the luxury of Diagram's Panjabi collection this Eid and make a statem
                 </>
               ) : (
                 <>
-                  {allPanjabi.map((panjabi) => (
-                    <Panjabi panjabi={panjabi} key={panjabi.id}></Panjabi>
+                  {allPanjabi.map((product) => (
+                    <ProductCard
+                      key={product.id}
+                      product={product}
+                    ></ProductCard>
                   ))}
                 </>
               )}

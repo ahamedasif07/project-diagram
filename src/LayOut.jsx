@@ -24,8 +24,13 @@ const LayOut = () => {
   }, []); // Empty dependency array ensures the effect runs only once on mount
 
   const handleAddToCart = (detailProduct) => {
-    console.log(detailProduct);
+    const addToCartproduct = allProduct.find(
+      (product) => product.id === detailProduct.id
+    );
+    console.log(addToCartproduct);
+    setAddCart([...addToCart, addToCartproduct]);
   };
+  console.log(addToCart);
   return (
     <div>
       <AddToCartContex.Provider
