@@ -12,6 +12,7 @@ import Accesories from "./Pages/Accesories";
 import Shoes from "./Pages/Shoes";
 import LoginForm from "./Pages/login";
 import RegistrationForm from "./Pages/Registation";
+import AddTpCart from "./Pages/AddTpCart";
 
 export const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ export const router = createBrowserRouter([
       {
         path: "/registation",
         element: <RegistrationForm></RegistrationForm>,
+      },
+      {
+        path: "/addtocart",
+        element: <AddTpCart></AddTpCart>,
       },
     ], // Correct JSX syntax
   },

@@ -1,9 +1,10 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { ProductContext } from "../LayOut";
+import { AddToCartContex, ProductContext } from "../LayOut";
 
 const DetailsPage = () => {
   const allProduct = useContext(ProductContext);
+  const { handleAddToCart } = useContext(AddToCartContex);
   const { id } = useParams();
   console.log(id);
   const [detailProduct, setDetailProducts] = useState([]);
@@ -137,7 +138,10 @@ const DetailsPage = () => {
                 </div>
               </form>
               {/* add to cart and bye */}
-              <button className="border-black w-full border-2 text-center  py-2 hover:border-4 hover:border-black text-[12px] mt-4">
+              <button
+                onClick={() => handleAddToCart(detailProduct)}
+                className="border-black w-full border-2 text-center  py-2 hover:border-4 hover:border-black text-[12px] mt-4"
+              >
                 Add to cart
               </button>
               <button className="border-black w-full border-2 text-center bg-black text-white py-2 hover:border-4 hover:border-black text-[12px] mt-4">

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import detaisImage from "../../../public/images/diagram-home-page/detailsSalman.png";
+import { AddToCartContex } from "../../LayOut";
 
 const Details = () => {
   const [selectedSize, setSelectedSize] = useState(null);

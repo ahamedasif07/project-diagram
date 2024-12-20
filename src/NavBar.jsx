@@ -78,9 +78,9 @@ const NavBar = () => {
                       >
                         <FaRegUser />
                       </Link>
-                      <h2 className="text-white text-xl">
+                      <Link to="/addtocart" className="text-white text-xl">
                         <BsHandbag />
-                      </h2>
+                      </Link>
                     </div>
                   </>
                 )}
