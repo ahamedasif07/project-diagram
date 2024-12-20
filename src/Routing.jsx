@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom"; // Correct import
 import LayOut from "./LayOut"; // Correct import for LayOut component
 import Home from "./Pages/Home";
 import Shirts from "./Pages/Shirts";
-import { Tshirts } from "./Pages/Tshirts";
+import Tshirts from "./pages/Tshirts";
 import { PoloShirts } from "./Pages/PoloShirts";
 import { Panjabis } from "./Pages/Panjabis";
 import { Pents } from "./Pages/Pents";
@@ -28,13 +28,14 @@ export const router = createBrowserRouter([
         path: "/shirts",
         element: <Shirts></Shirts>,
       },
-      {
-        path: "/tShirts",
-        element: <Tshirts></Tshirts>,
-      },
+
       {
         path: "/PoloShirts",
         element: <PoloShirts></PoloShirts>,
+      },
+      {
+        path: "/tshirts",
+        element: <Tshirts></Tshirts>,
       },
       {
         path: "/panjbis",
