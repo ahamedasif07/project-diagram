@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { BsHandbag } from "react-icons/bs";
 import { RiMenu2Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
-import { FaRegUser } from "react-icons/fa6";
+import { FaCross, FaRegUser } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -14,6 +14,7 @@ const NavBar = () => {
   const [isScarch, setIsScarch] = useState(false);
   const [isMenu, setIsMenu] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [togolAddToCart, setTogolAddToCart] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,12 +33,11 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div>
+    <div className="">
       {/* Top Bar */}
-      <div className="text-center bg-white pr-5 py-2">
+      <div className="text-center  bg-white pr-5 py-2">
         <h2 className="text-[13px] font-[13px]">One Lifestyle For Everyone</h2>
       </div>
-
       {/* Navbar */}
       <div className="relative bg-[#242833]">
         <div className={isFixed ? "fixed top-0 w-full z-50 bg-[#242833]" : ""}>
@@ -78,9 +78,13 @@ const NavBar = () => {
                       >
                         <FaRegUser />
                       </Link>
-                      <Link to="/addtocart" className="text-white text-xl">
+                      <Link
+                        onClick={() => setTogolAddToCart(true)}
+                        className="text-white text-xl"
+                      >
                         <BsHandbag />
                       </Link>
+                      {/* to="/addtocart" */}
                     </div>
                   </>
                 )}
@@ -174,6 +178,25 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
+        {/* drower for add to cart start */}
+
+        {togolAddToCart && (
+          <div className="fixed  top-0 right-0 z-[1000] h-[100vh] w-1/3 border-red-400 border-4 bg-green-600">
+            <div className="px-2 py-2">
+              <div className="flex justify-between">
+                <h2 className="text-2xl font-semibold">Shopping Cart</h2>
+                <h1
+                  onClick={() => setTogolAddToCart(false)}
+                  className="text-xl"
+                >
+                  <RxCross2></RxCross2>
+                </h1>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* drower for add to cart end */}
 
         {/* <ul className="md:flex gap-4   justify-center pb-3">
           <li className="text-white">Home</li>
@@ -193,7 +216,7 @@ const NavBar = () => {
           }`}
         >
           {isScarch && (
-            <div className="max-w-[600px] mx-auto py-4 px-2 flex items-center gap-4">
+            <div className="max-w-[600px] translate-x-1 duration-300 ease-in-out mx-auto py-4 px-2 flex items-center gap-4">
               <input
                 className="py-2 px-4 w-full border-white border-2 bg-[#242833] md:w-[600px] border-b-2 border-transparent focus:border-black outline-none"
                 type="search"
