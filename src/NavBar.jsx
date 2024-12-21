@@ -189,7 +189,7 @@ const NavBar = () => {
             togolAddToCart ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="px-2 py-2">
+          <div className="px-4 py-4">
             <div className="flex justify-between">
               <h2 className="text-2xl font-semibold">Shopping Cart</h2>
               <h1
@@ -199,7 +199,7 @@ const NavBar = () => {
                 <RxCross2 />
               </h1>
             </div>
-            <div className="grid grid-cols-4">
+            <div className="flex flex-col gap-3 items-center justify-center py-3">
               {addToCart.map((product) => (
                 <AddToCartCard
                   product={product}
