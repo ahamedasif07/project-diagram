@@ -86,7 +86,14 @@ const NavBar = () => {
                         onClick={() => setTogolAddToCart(true)}
                         className="text-white text-xl"
                       >
-                        <BsHandbag />
+                        <div className="flex relative gap-1 items-center justify-center">
+                          <BsHandbag />
+                          <div className="absolute left-[14px] bottom-2">
+                            <p className="bg-white  flex justify-center items-center h-[15px] text-black text-[10px] px-[4px] text-center  rounded-full">
+                              {addToCart.length}
+                            </p>
+                          </div>
+                        </div>
                       </Link>
                       {/* to="/addtocart" */}
                     </div>
@@ -199,14 +206,20 @@ const NavBar = () => {
                 <RxCross2 />
               </h1>
             </div>
-            <div className="flex flex-col gap-3 items-center justify-center py-3">
-              {addToCart.map((product) => (
-                <AddToCartCard
-                  product={product}
-                  key={product.id}
-                ></AddToCartCard>
-              ))}
-            </div>
+            {addToCart.length > 0 ? (
+              <div className="flex flex-col gap-3 items-center justify-center py-3">
+                {addToCart.map((product) => (
+                  <AddToCartCard
+                    product={product}
+                    key={product.id}
+                  ></AddToCartCard>
+                ))}
+              </div>
+            ) : (
+              <h2 className="text-4xl font-bold text-center mt-[200px]">
+                No Added Product
+              </h2>
+            )}
           </div>
         </div>
 
