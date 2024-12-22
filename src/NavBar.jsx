@@ -194,9 +194,10 @@ const NavBar = () => {
         <div
           className={`fixed top-0 right-0 z-[1000] h-[100vh] w-1/3 bg-gray-300 transform transition-transform duration-300 ${
             togolAddToCart ? "translate-x-0" : "translate-x-full"
-          }`}
+          } overflow-y-scroll overflow-x-hidden`}
         >
           <div className="px-4 py-4">
+            {/* Header */}
             <div className="flex justify-between">
               <h2 className="text-2xl font-semibold">Shopping Cart</h2>
               <h1
@@ -206,13 +207,12 @@ const NavBar = () => {
                 <RxCross2 />
               </h1>
             </div>
+
+            {/* Cart Items */}
             {addToCart.length > 0 ? (
               <div className="flex flex-col gap-3 items-center justify-center py-3">
                 {addToCart.map((product) => (
-                  <AddToCartCard
-                    product={product}
-                    key={product.id}
-                  ></AddToCartCard>
+                  <AddToCartCard product={product} key={product.id} />
                 ))}
               </div>
             ) : (

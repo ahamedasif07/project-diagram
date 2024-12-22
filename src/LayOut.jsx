@@ -30,11 +30,23 @@ const LayOut = () => {
     console.log(addToCartproduct);
     setAddCart([...addToCart, addToCartproduct]);
   };
+  const handleRemoveAddToCart = (removePRoduct) => {
+    const remaningProduct = addToCart.filter(
+      (product) => product.id !== removePRoduct.id
+    );
+    console.log(remaningProduct);
+    setAddCart(remaningProduct); // Fix: Directly set the remaining products
+  };
   console.log(addToCart);
   return (
     <div>
       <AddToCartContex.Provider
-        value={{ addToCart, setAddCart, handleAddToCart }}
+        value={{
+          addToCart,
+          setAddCart,
+          handleAddToCart,
+          handleRemoveAddToCart,
+        }}
       >
         <ProductContext.Provider value={allProduct}>
           <NavBar />

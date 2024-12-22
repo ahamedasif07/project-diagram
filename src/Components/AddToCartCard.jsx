@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { FiEdit2 } from "react-icons/fi";
+import { AddToCartContex } from "../LayOut";
 
 const AddToCartCard = ({ product }) => {
+  const { handleRemoveAddToCart } = useContext(AddToCartContex);
   const { name, image1, price, sizes } = product;
 
   // State to manage quantity and total price
@@ -46,8 +48,11 @@ const AddToCartCard = ({ product }) => {
           </p>
           <p className="text-lg font-semibold mt-1">Tk {totalPrice}</p>
         </div>
-        <button className="text-gray-500 hover:text-red-600">
-          <RxCross2 size={20} />
+        <button
+          onClick={() => handleRemoveAddToCart(product)}
+          className="text-gray-500 hover:text-red-600"
+        >
+          <RxCross2 />
         </button>
       </div>
 
