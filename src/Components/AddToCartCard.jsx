@@ -73,11 +73,10 @@ const AddToCartCard = ({ product }) => {
             +
           </button>
         </div>
-        <button className="text-gray-600 hover:text-gray-900 flex items-center gap-1">
-          <FiEdit2 />
-          <span className="text-sm">Edit</span>
-        </button>
       </div>
+      <button className="bg-black hover:text-[18px] transition-transform duration-300 ease-in-out text-white w-full px-3 py-2 mt-4">
+        Chack Out
+      </button>
     </div>
   );
 };

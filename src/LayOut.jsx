@@ -24,11 +24,19 @@ const LayOut = () => {
   }, []); // Empty dependency array ensures the effect runs only once on mount
 
   const handleAddToCart = (detailProduct) => {
-    const addToCartproduct = allProduct.find(
+    const isExist = addToCart.find(
       (product) => product.id === detailProduct.id
     );
-    console.log(addToCartproduct);
-    setAddCart([...addToCart, addToCartproduct]);
+    if (isExist) {
+      alert("Product already exists in the cart!");
+    } else {
+      const addToCartproduct = allProduct.find(
+        (product) => product.id === detailProduct.id
+      );
+      console.log(addToCartproduct);
+      setAddCart([...addToCart, addToCartproduct]);
+      alert("product addd");
+    }
   };
   const handleRemoveAddToCart = (removePRoduct) => {
     const remaningProduct = addToCart.filter(
