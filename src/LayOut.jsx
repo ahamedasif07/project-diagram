@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import NavBar from "./NavBar";
 import { createContext, useEffect, useState } from "react";
+import { Bounce, toast, ToastContainer } from "react-toastify";
 
 // Export ThemeContext and ProductContext outside the component
 export const ProductContext = createContext();
@@ -28,14 +29,14 @@ const LayOut = () => {
       (product) => product.id === detailProduct.id
     );
     if (isExist) {
-      alert("Product already exists in the cart!");
+      toast.warning("Product already exists in the cart!");
     } else {
       const addToCartproduct = allProduct.find(
         (product) => product.id === detailProduct.id
       );
       console.log(addToCartproduct);
       setAddCart([...addToCart, addToCartproduct]);
-      alert("product addd");
+      toast.success("Product successfully added to the cart.");
     }
   };
   const handleRemoveAddToCart = (removePRoduct) => {
@@ -43,11 +44,26 @@ const LayOut = () => {
       (product) => product.id !== removePRoduct.id
     );
     console.log(remaningProduct);
-    setAddCart(remaningProduct); // Fix: Directly set the remaining products
+    setAddCart(remaningProduct);
+    toast.info("Product removed from the cart successfully.");
+    // Fix: Directly set the remaining products
   };
   console.log(addToCart);
   return (
     <div>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce}
+      />
       <AddToCartContex.Provider
         value={{
           addToCart,
