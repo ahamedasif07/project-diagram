@@ -6,10 +6,23 @@ import { Bounce, toast, ToastContainer } from "react-toastify";
 // Export ThemeContext and ProductContext outside the component
 export const ProductContext = createContext();
 export const AddToCartContex = createContext();
+export const ScarchContex = createContext();
 
 const LayOut = () => {
   const [allProduct, setAllproducts] = useState([]);
   const [addToCart, setAddCart] = useState([]);
+  const [inputVlaue, setInputValue] = useState("");
+
+  // scarc filde handaling
+  useEffect(() => {
+    if (inputVlaue) {
+      console.log("Search value:", inputVlaue.toLowerCase());
+    }
+  }, [inputVlaue]);
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
 
   useEffect(() => {
     const fetching = async () => {
@@ -64,19 +77,23 @@ const LayOut = () => {
         theme="light"
         transition={Bounce}
       />
-      <AddToCartContex.Provider
-        value={{
-          addToCart,
-          setAddCart,
-          handleAddToCart,
-          handleRemoveAddToCart,
-        }}
+      <ScarchContex.Provider
+        value={{ inputVlaue, setInputValue, handleInputChange }}
       >
-        <ProductContext.Provider value={allProduct}>
-          <NavBar />
-          <Outlet />
-        </ProductContext.Provider>
-      </AddToCartContex.Provider>
+        <AddToCartContex.Provider
+          value={{
+            addToCart,
+            setAddCart,
+            handleAddToCart,
+            handleRemoveAddToCart,
+          }}
+        >
+          <ProductContext.Provider value={allProduct}>
+            <NavBar />
+            <Outlet />
+          </ProductContext.Provider>
+        </AddToCartContex.Provider>
+      </ScarchContex.Provider>
     </div>
   );
 };

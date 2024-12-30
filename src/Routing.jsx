@@ -13,6 +13,7 @@ import Shoes from "./Pages/Shoes";
 import LoginForm from "./Pages/login";
 import RegistrationForm from "./Pages/Registation";
 import AddTpCart from "./Pages/AddTpCart";
+import Scarch from "./Pages/Scarch";
 
 export const router = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ export const router = createBrowserRouter([
       {
         path: "/addtocart",
         element: <AddTpCart></AddTpCart>,
+      },
+      {
+        path: "/scarch",
+        element: <Scarch></Scarch>,
       },
     ], // Correct JSX syntax
   },

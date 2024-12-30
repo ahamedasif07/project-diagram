@@ -8,11 +8,13 @@ import { FaRegUser } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import { Link } from "react-router-dom";
-import { AddToCartContex } from "./LayOut";
+import { AddToCartContex, ScarchContex } from "./LayOut";
 import AddToCartCard from "./Components/AddToCartCard";
 
 const NavBar = () => {
   const { addToCart } = useContext(AddToCartContex);
+  const { handleInputChange } = useContext(ScarchContex);
+
   console.log(addToCart);
   const [isFixed, setIsFixed] = useState(false);
   const [isScarch, setIsScarch] = useState(false);
@@ -57,12 +59,13 @@ const NavBar = () => {
                       >
                         {isMenu ? <RxCross2></RxCross2> : <RiMenu2Fill />}
                       </h2>
-                      <h2
+                      <Link
+                        to="/scarch"
                         onClick={() => setIsScarch(true)}
                         className="text-white text-xl md:block hidden "
                       >
                         <CiSearch />
-                      </h2>
+                      </Link>
                     </div>
                     <img
                       className="w-[170px] md:w-[250px]"
@@ -245,9 +248,11 @@ const NavBar = () => {
           {isScarch && (
             <div className="max-w-[600px] translate-x-1 duration-300 ease-in-out mx-auto py-4 px-2 flex items-center gap-4">
               <input
-                className="py-2 px-4 w-full border-white border-2 bg-[#242833] md:w-[600px] border-b-2 border-transparent focus:border-black outline-none"
+                id="input-filde"
+                className="py-2 px-4 w-full text-white border-white border-2 bg-[#242833] md:w-[600px] border-b-2 border-transparent focus:border-black outline-none"
                 type="search"
                 placeholder="search"
+                onChange={handleInputChange} // Attach onChange handler
               />
               <h2
                 onClick={() => setIsScarch(false)}
