@@ -489,5 +489,55 @@
     "image2": "https://i.ibb.co.com/Qmmx0Sc/Untitled-6.jpg",
     "category": "hoodie",
     "name": "Hoodie"
+  },
+  {
+    "code_name": "jk-01",
+    "id": 53,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2200,
+    "image1": "https://i.ibb.co.com/s65M7L0/Screenshot2023-11-01215337.jpg",
+    "image2": "https://i.ibb.co.com/qnZ69JT/Screenshot2023-11-17194048.png",
+    "category": "jacket",
+    "name": "Jacket"
+  },
+  {
+    "code_name": "jk-02",
+    "id": 54,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2500,
+    "image1": "https://i.ibb.co.com/wyNYyqW/dark-INSTA.jpg",
+    "image2": "https://i.ibb.co.com/q7yDcNt/Screenshot2023-11-01214832.jpg",
+    "category": "jacket",
+    "name": "Jacket"
+  },
+  {
+    "code_name": "jk-03",
+    "id": 55,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2400,
+    "image1": "https://i.ibb.co.com/X2Bh3Yy/Untitled-3-77d21584-0451-4d59-abc1-000b3da63549.jpg",
+    "image2": "https://i.ibb.co.com/RPZTY38/Untitled-2-7c893ccd-d3af-476c-a9d3-4ab342295e54.jpg",
+    "category": "jacket",
+    "name": "Jacket"
+  },
+  {
+    "code_name": "jk-04",
+    "id": 56,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2600,
+    "image1": "https://i.ibb.co.com/pw0XSNM/Untitled-1-b162edeb-1028-4743-a0d1-4edcb51f0eb2.jpg",
+    "image2": "https://i.ibb.co.com/3N837kk/Untitled-2.jpg",
+    "category": "jacket",
+    "name": "Jacket"
+  },
+  {
+    "code_name": "jk-05",
+    "id": 57,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2700,
+    "image1": "https://i.ibb.co.com/k3hNZH2/Screenshot2023-11-01215754-e060ff94-43ee-4928-9ea0-b775e28d6197.jpg",
+    "image2": "https://i.ibb.co.com/Wk386bx/354.jpg",
+    "category": "jacket",
+    "name": "Jacket"
   }
 ]
