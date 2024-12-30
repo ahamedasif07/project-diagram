@@ -16,6 +16,7 @@ import AddTpCart from "./Pages/AddTpCart";
 import Scarch from "./Pages/Scarch";
 import Hoddie from "./Pages/Hoddie";
 import Jacket from "./Pages/Jacket";
+import Sweatshirts from "./Pages/Sweatshirts";
 
 export const router = createBrowserRouter([
   {
@@ -83,6 +84,10 @@ export const router = createBrowserRouter([
       {
         path: "/jacket",
         element: <Jacket></Jacket>,
+      },
+      {
+        path: "/Sweatshirt",
+        element: <Sweatshirts></Sweatshirts>,
       },
     ], // Correct JSX syntax
   },
