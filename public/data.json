@@ -539,5 +539,105 @@
     "image2": "https://i.ibb.co.com/Wk386bx/354.jpg",
     "category": "jacket",
     "name": "Jacket"
+  },
+  {
+    "code_name": "sw-01",
+    "id": 58,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1500,
+    "image1": "https://i.ibb.co.com/LzGpDNS/Untitled-1-d3409d65-bb90-41d7-b3d0-c38216346679.jpg",
+    "image2": "hhttps://i.ibb.co.com/n3WZCnB/Untitled-2-5e4fd72d-e007-4e08-bc04-9579c07600cc.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-02",
+    "id": 59,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1600,
+    "image1": "https://i.ibb.co.com/MR6KFWw/Screenshot2023-11-01222522.jpg",
+    "image2": "https://i.ibb.co.com/94Lt6v1/Screenshot2023-11-01222456.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-03",
+    "id": 60,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1700,
+    "image1": "https://i.ibb.co.com/KNtQXTB/Artboard3-f74e80c5-3d84-43af-8d93-5afbac98a4a1.jpg",
+    "image2": "https://i.ibb.co.com/6bvGn19/Artboard10.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-04",
+    "id": 61,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1800,
+    "image1": "https://i.ibb.co.com/kBB28RB/Untitled-1-aabcf80c-dc99-45a0-b172-cd9bc0f75f8a.jpg",
+    "image2": "https://i.ibb.co.com/0Y8kxfd/Untitled-2-025ac3f9-6e68-4f99-97a3-b84407d64dd7.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-05",
+    "id": 62,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1850,
+    "image1": "https://i.ibb.co.com/nPDF5Nd/Artboard3-d3d963ab-05db-4521-bf40-5b6455b2b278.jpg",
+    "image2": "hhttps://i.ibb.co.com/r2bwBZg/Screenshot2023-11-01222938.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-06",
+    "id": 63,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1900,
+    "image1": "https://i.ibb.co.com/qn359Mr/Screenshot2023-11-01223355.jpg",
+    "image2": "https://i.ibb.co.com/hDnVT4x/Screenshot2023-11-01223330.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-07",
+    "id": 64,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1950,
+    "image1": "https://i.ibb.co.com/6ZGbvkv/1.jpg",
+    "image2": "https://i.ibb.co.com/6ZGbvkv/1.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-08",
+    "id": 65,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2000,
+    "image1": "https://i.ibb.co.com/c3VM4zr/1-345257d0-192c-4c5c-8e17-c17216d824f0.jpg",
+    "image2": "https://i.ibb.co.com/c3VM4zr/1-345257d0-192c-4c5c-8e17-c17216d824f0.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-09",
+    "id": 66,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2100,
+    "image1": "https://i.ibb.co.com/XVPjMng/316524679-624468239472537-9005666420494458801-n.jpg",
+    "image2": "https://i.ibb.co.com/XVPjMng/316524679-624468239472537-9005666420494458801-n.jpg",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
+  },
+  {
+    "code_name": "sw-10",
+    "id": 67,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2200,
+    "image1": "https://i.ibb.co.com/MDmkH4y/316220599-624468266139201-3038801416095326950-n.png",
+    "image2": "https://i.ibb.co.com/MDmkH4y/316220599-624468266139201-3038801416095326950-n.png",
+    "category": "sweatshirts",
+    "name": "Sweatshirt"
   }
 ]
