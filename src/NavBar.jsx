@@ -171,7 +171,7 @@ const NavBar = () => {
                         pents
                       </Link>
                       <Link
-                        to="/pents"
+                        to="/hoddie"
                         onClick={() => setIsOpen(false)}
                         className="px-4 block   py-2 text-[14px] text-gray-200 cursor-pointer uppercase"
                       >
