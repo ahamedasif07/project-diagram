@@ -389,5 +389,105 @@
     "image2": "https://i.ibb.co/fY4TW7B/poster-02-1.png",
     "category": "shirt",
     "name": "Shirt"
+  },
+  {
+    "code_name": "hd-01",
+    "id": 43,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1800,
+    "image1": "https://i.ibb.co.com/3zKd1hf/Artboard2-36d408f0-5cc0-45c6-8ddd-102620ea04a8.jpg",
+    "image2": "https://i.ibb.co.com/rfzd5cN/Artboard3-bda4b7da-f7fe-4d9c-85dc-1d582e22c8f9.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-02",
+    "id": 44,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1750,
+    "image1": "https://i.ibb.co.com/R0vLXsD/12.jpg",
+    "image2": "https://i.ibb.co.com/kyPZyG6/12-73f71756-c0e2-4608-92a2-c0a72eadeb69.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-03",
+    "id": 45,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1850,
+    "image1": "https://i.ibb.co.com/nc07hf1/Screenshot2023-11-16231420.png",
+    "image2": "https://i.ibb.co.com/nc07hf1/Screenshot2023-11-16231420.png",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-04",
+    "id": 46,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1900,
+    "image1": "https://i.ibb.co.com/f4NjfNN/Artboard3-a2ef565d-da77-4b8d-8c40-ff36c9c03edd.jpg",
+    "image2": "https://i.ibb.co.com/tbkgMm1/Screenshot2023-11-01213334.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-05",
+    "id": 47,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1700,
+    "image1": "https://i.ibb.co.com/ZVtyBfL/Untitled-9.jpg",
+    "image2": "https://i.ibb.co.com/bNTsMNp/Untitled-7.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-06",
+    "id": 48,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1650,
+    "image1": "https://i.ibb.co.com/4NyNvzK/14.png",
+    "image2": "https://i.ibb.co.com/5rVJT2y/13.png",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-07",
+    "id": 49,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1950,
+    "image1": "https://i.ibb.co.com/kDMWhGC/Untitled-15.jpg",
+    "image2": "https://i.ibb.co.com/RT1RWmy/Untitled-14.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-08",
+    "id": 50,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 2000,
+    "image1": "https://i.ibb.co/x5KtFcg/hoodie-08.png",
+    "image2": "https://i.ibb.co/x5KtFcg/hoodie-08.png",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-09",
+    "id": 51,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1780,
+    "image1": "https://i.ibb.co.com/QnRMx5m/Untitled-11.jpg",
+    "image2": "https://i.ibb.co.com/MgY0G6d/Untitled-10.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
+  },
+  {
+    "code_name": "hd-10",
+    "id": 52,
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 1820,
+    "image1": "https://i.ibb.co.com/NCNg7JD/Untitled-4-87e551c8-c3e3-40ae-afbc-1ccdb5e6151d.jpg",
+    "image2": "https://i.ibb.co.com/Qmmx0Sc/Untitled-6.jpg",
+    "category": "hoodie",
+    "name": "Hoodie"
   }
 ]
